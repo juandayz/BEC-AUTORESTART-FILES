@@ -48,3 +48,5 @@ G.Open NW_SHUTDOWN.bat and change by your path
 ```ruby
 set cleanuplogs="C:\DZE_Server_Config\BattlEye\Bec\AUTORESTART_FILES"
 ```
+
+**NOTE:** The cleanupEvents.sql and findvehicleswithoutkeyFunction.sql are sql events and functions. YOu can load them from any kind of program like navicat or heidysql.
