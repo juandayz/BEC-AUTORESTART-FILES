@@ -49,4 +49,7 @@ G.Open NW_SHUTDOWN.bat and change by your path
 set cleanuplogs="C:\DZE_Server_Config\BattlEye\Bec\AUTORESTART_FILES"
 ```
 
+**NOW LAUNCH YOUR SERVER WITH START_WITH_RESTART.bat
+
+
 **NOTE:** The cleanupEvents.sql and findvehicleswithoutkeyFunction.sql are sql events and functions. YOu can load them from any kind of program like navicat or heidysql.
