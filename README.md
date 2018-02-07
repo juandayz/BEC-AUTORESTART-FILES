@@ -36,4 +36,15 @@ D.Open Scheduler.xml and change this path in every job group.
 ```ruby
 <cmd>C:\DZE_Server_Config\BattlEye\Bec\AUTORESTART_FILES\NW_SHUTDOWN.bat</cmd>
 ```
-  
+E.Open clean_logs.bat and change by your own path:
+```ruby
+set srvname=C:\DZE_Server_Config
+```
+F.Open NW_BEC_CONTROL.bat and change by your path:
+```ruby
+cd "C:\DZE_Server_Config\BattlEye\Bec"
+```
+G.Open NW_SHUTDOWN.bat and change by your path
+```ruby
+set cleanuplogs="C:\DZE_Server_Config\BattlEye\Bec\AUTORESTART_FILES"
+```
