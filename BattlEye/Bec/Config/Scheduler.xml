@@ -1,0 +1,623 @@
+﻿<?xml version="1.0"?>
+<Scheduler>
+
+<!-- 12:00 AM restart -->
+<job id="0">
+	<time>21:30:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 2:30 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="1">
+	<time>22:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 2 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="2">
+	<time>23:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 1 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="3">
+	<time>23:45:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 15 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="4">
+	<time>23:55:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 5 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="5">
+	<time>23:59:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 1 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="6">
+	<time>00:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>#shutdown</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="7">
+	<time>00:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>	
+	<cmd>C:\DZE_Server_Config\BattlEye\Bec\AUTORESTART_FILES\NW_SHUTDOWN.bat</cmd>
+	<cmdtype>1</cmdtype>
+</job>
+
+
+<!-- End 12:00 AM restart -->
+
+
+<!-- 03:00 AM restart -->
+<job id="8">
+	<time>00:30:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 2:30 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="9">
+	<time>01:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 2 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="10">
+	<time>02:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 1 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="11">
+	<time>02:45:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 15 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="12">
+	<time>02:55:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 5 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="13">
+	<time>02:59:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 1 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="14">
+	<time>03:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>#shutdown</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="15">
+	<time>03:00:01</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>	
+	<cmd>C:\DZE_Server_Config\BattlEye\Bec\AUTORESTART_FILES\NW_SHUTDOWN.bat</cmd>
+	<cmdtype>1</cmdtype>
+</job>
+
+
+<!-- End 03:00 AM restart -->
+
+
+
+<!-- 06:00 AM restart -->
+<job id="16">
+	<time>03:30:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 2:30 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="17">
+	<time>04:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 2 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="18">
+	<time>05:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 1 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="19">
+	<time>05:45:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 15 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="20">
+	<time>05:55:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 5 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="21">
+	<time>05:59:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 1 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="22">
+	<time>06:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>#shutdown</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="23">
+	<time>06:00:01</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>	
+	<cmd>C:\DZE_Server_Config\BattlEye\Bec\AUTORESTART_FILES\NW_SHUTDOWN.bat</cmd>
+	<cmdtype>1</cmdtype>
+</job>
+
+
+<!-- End 06:00 AM restart -->
+
+
+
+<!-- 09:00 AM restart -->
+<job id="24">
+	<time>06:30:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 2:30 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="25">
+	<time>07:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 2 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="26">
+	<time>08:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 1 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="27">
+	<time>08:45:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 15 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="28">
+	<time>08:55:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 5 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="29">
+	<time>08:59:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 1 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="30">
+	<time>09:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>#shutdown</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="31">
+	<time>09:00:01</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>	
+	<cmd>C:\DZE_Server_Config\BattlEye\Bec\AUTORESTART_FILES\NW_SHUTDOWN.bat</cmd>
+	<cmdtype>1</cmdtype>
+</job>
+
+
+<!-- End 09:00 AM restart -->
+
+
+<!-- 12:00 pm restart -->
+<job id="32">
+	<time>09:30:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 2:30 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="33">
+	<time>10:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 2 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="34">
+	<time>11:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 1 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="35">
+	<time>11:45:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 15 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="36">
+	<time>11:55:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 5 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="37">
+	<time>11:59:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 1 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="38">
+	<time>12:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>#shutdown</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="39">
+	<time>12:00:01</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>	
+	<cmd>C:\DZE_Server_Config\BattlEye\Bec\AUTORESTART_FILES\NW_SHUTDOWN.bat</cmd>
+	<cmdtype>1</cmdtype>
+</job>
+
+
+<!-- End 12:00 pm restart -->
+
+
+<!-- 15:00 pm restart -->
+<job id="40">
+	<time>12:30:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 2:30 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="41">
+	<time>13:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 2 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="42">
+	<time>14:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 1 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="43">
+	<time>14:45:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 15 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="44">
+	<time>14:55:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 5 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="45">
+	<time>14:59:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 1 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="46">
+	<time>15:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>#shutdown</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="47">
+	<time>15:00:01</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>	
+	<cmd>C:\DZE_Server_Config\BattlEye\Bec\AUTORESTART_FILES\NW_SHUTDOWN.bat</cmd>
+	<cmdtype>1</cmdtype>
+</job>
+
+
+<!-- End 15:00 pm restart -->
+
+
+
+<!-- 18:00 pm restart -->
+<job id="48">
+	<time>15:30:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 2:30 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="49">
+	<time>16:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 2 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="50">
+	<time>17:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 1 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="51">
+	<time>17:45:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 15 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="52">
+	<time>17:55:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 5 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="53">
+	<time>17:59:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 1 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="54">
+	<time>18:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>#shutdown</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="55">
+	<time>18:00:01</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>	
+	<cmd>C:\DZE_Server_Config\BattlEye\Bec\AUTORESTART_FILES\NW_SHUTDOWN.bat</cmd>
+	<cmdtype>1</cmdtype>
+</job>
+
+
+<!-- End 18:00 pm restart -->
+
+
+<!-- 21:00 pm restart -->
+<job id="56">
+	<time>18:30:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 2:30 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="57">
+	<time>19:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 2 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="58">
+	<time>20:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 1 hs!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="59">
+	<time>20:45:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 15 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="60">
+	<time>20:55:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 5 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="61">
+	<time>20:59:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>say -1 This server will restart in 1 minute!</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="62">
+	<time>21:00:00</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>
+	<cmd>#shutdown</cmd>
+	<cmdtype>0</cmdtype>
+</job>
+
+<job id="63">
+	<time>21:00:01</time>
+	<delay>000000</delay>
+	<day>1,2,3,4,5,6,7</day>
+	<loop>0</loop>	
+	<cmd>C:\DZE_Server_Config\BattlEye\Bec\AUTORESTART_FILES\NW_SHUTDOWN.bat</cmd>
+	<cmdtype>1</cmdtype>
+</job>
+
+
+<!-- End 21:00 pm restart -->
+
+
+</Scheduler>
